@@ -1,0 +1,26 @@
+h1{
+   font-size: 50px;
+}
+section{
+    display: flex;
+    text-align: justify;
+}
+.half-weight{
+    font-family: 'Nunito Sans', sans-serif;
+    width: 50%;
+}
+span{
+    color: orange;
+}
+h3{
+    font-size: 20px;
+    
+}
+div{
+    margin-left: 5%;
+}
+div img{
+    margin-top: 30px;
+    padding-top: 30px;
+    width: 95%;
+}
