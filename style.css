@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-h1 {
+.font-size {
     font-size: 50PX;
 }
 
@@ -25,8 +25,9 @@ h3 {
     font-weight: 700;
 }
 
-section {
+.flexible {
     display: flex;
+
 
 }
 
@@ -69,4 +70,28 @@ section {
 
 .justify {
     text-align: justify;
+}
+
+.boxshado {
+    box-shadow: 10px 10px 50px black;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    border-left: 7px solid red;
+}
+
+#right-margin {
+    margin-right: 5%;
+}
+
+.ex-font {
+    font-size: 40PX;
+}
+
+h4 {
+    text-align: center;
+}
+
+.left-banner {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
 }
