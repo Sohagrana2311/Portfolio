@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 h1 {
@@ -26,14 +27,46 @@ h3 {
 
 section {
     display: flex;
+
 }
 
 .half-width {
     width: 50%;
-    padding: 3%;
+    padding-left: 5%;
 }
 
 .half-width img {
     width: 100%;
 
+}
+
+.drem-big {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.drem-big img {
+    width: 100%;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+
+}
+
+.side-banner {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.padding-left {
+    padding-right: 12%;
+    text-align: justify;
+}
+
+.justify {
+    text-align: justify;
 }
