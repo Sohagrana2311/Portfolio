@@ -76,11 +76,15 @@ h3 {
     box-shadow: 10px 10px 50px black;
     margin-left: 5%;
     margin-bottom: 5%;
-    border-left: 7px solid red;
+
+    padding: 3%;
 }
 
 #right-margin {
     margin-right: 5%;
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, rgb(0, 204, 255));
+    border-image-slice: 1;
 }
 
 .ex-font {
@@ -94,4 +98,11 @@ h4 {
 .left-banner {
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
+
+}
+
+#border-image {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(249, 163, 4), tomato);
+    border-image-slice: 1;
 }
